@@ -4,52 +4,57 @@ A modern **Content Management System (CMS)** built with **React and Vite** for c
 
 ## 🚀 Features
 
-* 🔐 Admin Login & Protected Routes
-* 📊 Dashboard with content statistics
-* ➕ Create new posts
-* ✏️ Edit existing posts
-* 👁️ View individual posts
-* 🗑️ Manage posts
-* 🔎 Search posts by:
-
-  * Title
-  * Category
-  * Author
-* 🖼️ Image upload and preview
-* 📈 Analytics dashboard
-* 🌙 Dark mode
-* 💾 LocalStorage-based data persistence
-* 📱 Responsive user interface
-* 🚪 Logout functionality
+- 🔐 Admin Login & Protected Routes
+- 📊 Dashboard with content statistics
+- ➕ Create new posts
+- ✏️ Edit existing posts
+- 👁️ View individual posts
+- 🗑️ Manage posts
+- 🔎 Search posts by:
+  - Title
+  - Category
+  - Author
+- 🖼️ Image upload and preview
+- 📈 Analytics dashboard
+- 🌙 Dark mode
+- 💾 LocalStorage-based data persistence
+- 📱 Responsive user interface
+- 🚪 Logout functionality
+- 🌐 Multi-language support:
+  - English
+  - Hindi
+  - Punjabi
 
 ## 🛠️ Tech Stack
 
 ### Frontend
 
-* React.js
-* Vite
-* JavaScript
-* HTML5
-* CSS3
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
 
 ### Libraries
 
-* React Router DOM
-* React Icons
-* Recharts
+- React Router DOM
+- React Icons
+- Recharts
+- i18next
 
 ### Data Storage
 
-* Browser LocalStorage
+- Browser LocalStorage
 
 ## 📂 Project Structure
 
 ```text
-contentify-cms/
+Content-management-system/
 │
 ├── public/
 │
 ├── src/
+│   ├── assets/
 │   ├── components/
 │   │   ├── Analytics.jsx
 │   │   ├── Navbar.jsx
@@ -60,36 +65,52 @@ contentify-cms/
 │   ├── data/
 │   │   └── dummyData.js
 │   │
+│   ├── locales/
+│   │   ├── en/
+│   │   ├── hi/
+│   │   └── pa/
+│   │
 │   ├── pages/
 │   │   ├── AddPost.jsx
+│   │   ├── AnalyticsPages.jsx
 │   │   ├── Dashboard.jsx
 │   │   ├── EditPost.jsx
 │   │   ├── Login.jsx
+│   │   ├── NotFound.jsx
 │   │   ├── Settings.jsx
 │   │   ├── ViewPost.jsx
 │   │   └── ViewPostSearch.jsx
 │   │
+│   ├── styles/
+│   │   ├── Login.css
+│   │   └── ViewPost.css
+│   │
+│   ├── App.css
 │   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   ├── i18n.js
+│   ├── index.css
+│   └── main.jsx
 │
+├── .gitignore
+├── eslint.config.js
+├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
 └── README.md
-```
 
 ## ⚙️ Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/contentify-cms.git
+git clone https://github.com/singhbrarharmandeep0-hue/Content-management-system.git
 ```
 
 Open the project:
 
 ```bash
-cd contentify-cms
+cd Content-management-system
 ```
 
 Install dependencies:
@@ -207,6 +228,30 @@ BCA Student | React Developer | Python & AI Enthusiast
 ---
 
 ⭐ If you find this project useful, consider giving it a star!
+
+### 3. Save it
+
+In Notepad:
+
+**Ctrl + S**
+
+Then close Notepad.
+
+### 4. Tell Git about the new README
+
+Back in CMD:
+
+```cmd
+git add README.md
+
+Then:
+</>cmd
+
+git commit -m "Improve project documentation"
+
+Then:
+</> cmd
+git push origin main
 
 # Content-management-system
 A modern **Content Management System (CMS)** built with **React and Vite** for creating, managing, searching, and analyzing digital content through an administrator dashboard.
