@@ -1,4 +1,4 @@
-
+import "../styles/postform.css";
 function PostForm({
   title,
   setTitle,

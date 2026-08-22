@@ -1,0 +1,53 @@
+.analytics{
+
+    margin-top:50px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.analytics-header{
+
+    margin-bottom:25px;
+
+}
+
+.analytics-header h2{
+
+    font-size:30px;
+
+    margin-bottom:8px;
+
+}
+
+.analytics-header p{
+
+    color:#666;
+
+}
+
+.analytics-grid{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:25px;
+
+}
+
+.analytics-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}

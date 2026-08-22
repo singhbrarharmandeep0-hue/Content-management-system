@@ -8,7 +8,7 @@ import {
 } from "recharts";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-
+import "../styles/analytics.css";
 
 function Analytics({ posts }) {
     useGSAP(() => {

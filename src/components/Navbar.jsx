@@ -9,7 +9,7 @@ import {
 import { useTranslation } from "react-i18next";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-
+import "../styles/navbar.css";
 
 function Navbar({search, setSearch}) {
   const { t } = useTranslation();
