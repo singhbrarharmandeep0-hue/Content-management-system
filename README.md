@@ -248,7 +248,7 @@ Back in CMD:
 ```cmd
 git add README.md
 
-Then:
+Then: 
 </>cmd
 
 git commit -m "Improve project documentation"
