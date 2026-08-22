@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-
+import "../styles/sidebar.css";
 
 import {
   FaHome,
