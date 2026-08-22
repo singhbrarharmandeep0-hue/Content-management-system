@@ -82,7 +82,11 @@ Content-management-system/
 │   │   └── ViewPostSearch.jsx
 │   │
 │   ├── styles/
-│   │   ├── Login.css
+│   │   ├── analytics.css
+|   |   ├── Login.css
+│   │   ├── navbar.css
+│   │   ├── postform.css
+│   │   ├── sidebar.css
 │   │   └── ViewPost.css
 │   │
 │   ├── App.css
@@ -244,7 +248,7 @@ Back in CMD:
 ```cmd
 git add README.md
 
-Then:
+Then: 
 </>cmd
 
 git commit -m "Improve project documentation"
