@@ -82,7 +82,11 @@ Content-management-system/
 │   │   └── ViewPostSearch.jsx
 │   │
 │   ├── styles/
-│   │   ├── Login.css
+│   │   ├── analytics.css
+|   |   ├── Login.css
+│   │   ├── navbar.css
+│   │   ├── postform.css
+│   │   ├── sidebar.css
 │   │   └── ViewPost.css
 │   │
 │   ├── App.css
